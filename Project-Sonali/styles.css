@@ -1,0 +1,94 @@
+/* @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+.projects {
+  font-family: "Montserrat", sans-serif;
+	color: #8d97ad;
+  font-weight: 300;
+}
+
+.projects h1, .projects h2, .projects h3, .projects h4, .projects h5, .projects h6 {
+  color: #3e4555;
+}
+
+.projects .card-title {
+	font-size: 18px;
+}
+
+.projects .subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+}
+
+.projects .card.card-shadow {
+    -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+}
+
+.projects .b-h-box .card-img-overlay {
+  bottom: 0px;
+  top: auto;
+  -webkit-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+  height: 55%;
+}
+
+.projects .b-h-box .card-title {
+    color: #ffffff;
+}
+
+.projects .b-h-box {
+	color: #ffffff;
+}
+
+.projects .b-h-box .card-text {
+  display: none;
+}
+
+.projects .b-h-box:hover {
+  color: #8d97ad;
+}
+
+.projects .b-h-box:hover .card-img-overlay {
+  height: 100%;
+  background: #ffffff;
+  border: 3px solid rgba(120, 130, 140, 0.13);
+}
+
+body{
+    background-image: url(../images/bg-image.jpg);
+}
+
+
+.projects .b-h-box:hover .card-title {
+  color: #263238;
+  margin: auto auto;
+}
+
+.projects .b-h-box:hover .card-text {
+  display: block;
+}
+
+.projects .bg-danger-gradiant {
+    background: #ff4d7e;
+    background: -webkit-linear-gradient(legacy-direction(to right), #ff4d7e 0%, #ff6a5b 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#ff4d7e), to(#ff6a5b));
+    background: -webkit-linear-gradient(left, #ff4d7e 0%, #ff6a5b 100%);
+    background: -o-linear-gradient(left, #ff4d7e 0%, #ff6a5b 100%);
+    background: linear-gradient(to right, #ff4d7e 0%, #ff6a5b 100%);
+}
+
+.projects .font-14 {
+	font-size: 14px;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+   
+}
+@media (max-width:768px) {
+	.projects .b-h-box .card-img-overlay {
+		height: 40%;
+	}
+}
