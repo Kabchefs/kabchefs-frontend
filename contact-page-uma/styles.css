@@ -1,0 +1,79 @@
+
+body{
+    font-family: 'Montserrat';
+  }
+  
+  h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat-bold";
+  }
+
+/* CONTACT HEADER */
+.contact-header{
+    
+    padding:7% 15%;
+    text-align: center;
+     background-color: #252525;
+    color: #fff;
+}
+.headline-text{
+    font-family: 'Montserrat-black', sans-serif;
+    font-weight: 900;   
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-bottom: 1rem;
+}
+
+.contact-content{
+    padding:7% 15%;
+}
+
+/* CONTACT INFO SECTION */
+.contact-info-column{
+   background-color: #0a97b0;
+   color:#fff;
+}
+.contact-info{
+    padding-top: 2rem;   
+}
+
+
+/* CONTACT FORM */
+.contact-form{
+    padding-top: 2rem; 
+}
+
+
+.social-icon{
+    margin: 20px 10px;
+}
+.submit-button{
+      background:#0a97b0 ;
+}
+.submit-button:hover{
+    background:#12cad6;
+}
+
+
+
+
+
+    /* FOOTER */
+    .style_it{
+        background-color: #000;
+        color: white;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        text-decoration: none;
+        color: #4bcffa;
+    }
+    .d-flex div{
+        text-align: center;
+        width: 290px;
+       
+       
+       
+    }
