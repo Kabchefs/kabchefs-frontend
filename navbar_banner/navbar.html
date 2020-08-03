@@ -12,11 +12,13 @@
         <title>Kabchefs</title>
     </head>
     <style>
-    
+    body{
+        background-color: rgba(0, 0, 0, 0.486);
+        }
     .navbar{
     border: none;
     position: fixed;
-    background: transparent !important;
+    background-color: rgba(0, 0, 0, 0.486);
     top: 0;
     z-index: 99999;
     padding:10px 0;
@@ -50,7 +52,7 @@
     padding-left: 15%;
     padding-right: 15%;
     margin-bottom: 20px;
-    background: url(../images/4k.jpg) no-repeat center;
+    background: url(4k.jpg) no-repeat center;
     text-align: center;
     color: #f8f8f8;
     background-size: cover
@@ -60,14 +62,13 @@
     padding-left: 15%;
     padding-right: 15%;
     margin-bottom: 20px;
-    background: url(../images/4k2.jpg) no-repeat center;
+    background: url(4k2.jpg) no-repeat center;
     text-align: center;
     color: #f8f8f8;
     background-size: cover
     }
     .inner-banner-image {
-    padding-top: 20%;
-    padding-bottom: 8%;
+    padding-top: 12%;
     width:80%;
     margin:auto; 
     }
@@ -95,11 +96,11 @@
     <body>
         <div class="container-fluid">
         <div class="row">
-            <nav class="navbar navbar-fixed-top  navbar-default">
+            <nav class="navbar navbar-fixed-top navbar-default">
                 <div class="container-fluid">
                     <div class="nav-header">
                         <a class="nav-brand" style="text-decoration: none;">
-                            <img src="../images/logo - Copy.png" alt="" class="image-responsive" style="width: 70px;">Kabchefs</a>
+                            <img src="logo - Copy.png" alt="" class="image-responsive" style="width: 70px;">Kabchefs</a>
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
@@ -113,7 +114,7 @@
                             <li><a href="#"><span class="glyphicon glyphicon-paperclip"></span> Articles</a></li>
                             <li><a href="#"><span class="glyphicon glyphicon-tasks"></span> About Us</a></li>
                             <li><a href="#"><span class="glyphicon glyphicon-phone"></span> Contact Us</a></li>
-                            <li><a href="#" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                             </ul>
                     </div>
                     </div>
@@ -121,7 +122,10 @@
             </nav>
         </div>
         </div>
-
+        <br>
+        <br>
+        <br>
+        <br>
         <div row>
         <div class="container-fluid" style="margin: 0px; padding: 0px;">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -170,27 +174,4 @@
           </div>
         </div>
     </body>
-    <div class="modal fade" role="dialog" id="myModal" tabindex="-1" style="margin-top: 10%; box-shadow: inset;">
-        <div class="modal-dialog" role="document">
-         <div class="modal-content">
-            <div class="modal-body" style="padding-top: 0;">
-           <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-right: 10px; padding: 5px;">
-                 <span aria-hidden="true">&times;</span>
-           </button>
-               <h3 style="padding: 5px;">LOGIN</h3>
-                <hr>
-               <form>
-               <div class="form-group">
-                   <input type="emai" class="form-control" name="email" id="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
-               </div>
-               <div class="form-group">
-                   <input type="text" class="form-control" name="password" id="password" placeholder="Password" pattern=".{6,}" required>
-               </div>
-               <div class="form-group">
-               <button type="submit" class="btn btn-primary" value="login_submit">Login</button>
-               </div>
-               </form>
-           </div>
-         </div>
-        </div>
 </html>
