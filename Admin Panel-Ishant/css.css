@@ -1,0 +1,44 @@
+#bg_img{
+    background-image: url(b1.jpg);
+    background-size: cover;
+    width:100%;
+    height:730px;
+}
+.headi h3{
+    text-align: center;
+    color: #608acc;
+    display: inline;
+   
+} 
+.headi img{
+    display: inline;
+}
+.headi{
+    display: inline;
+    position: relative;
+    left: 55px;
+}
+body{
+            
+                font-family : 'Varela Round', sans-serif;
+         }
+         .style_it{
+             background-color: #000;
+             color: white;
+         }
+        .style_it a{
+             text-decoration: none;
+             color: white;
+         }
+        .style_it a:hover{
+             text-decoration: none;
+             color: #4bcffa;
+         }
+         .d-flex div{
+             text-align: center;
+             width: 290px;
+            
+            
+            
+         }
+        
