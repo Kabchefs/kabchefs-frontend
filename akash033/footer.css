@@ -132,3 +132,22 @@ li i
 	color: #fff;
 	font-size: 12px;
 }
+
+@media(max-width: 991px){
+	.footer-items{
+		width:50%;
+		margin-bottom:1rem;
+		padding:0px 8px;
+		height:23rem;
+	}
+
+}
+
+@media(max-width:550px){
+	.footer-items{
+		width:100%;
+		margin-bottom:1rem;
+		padding:0px 4px;
+		height:23rem;
+	}
+}
