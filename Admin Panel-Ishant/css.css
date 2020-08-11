@@ -18,9 +18,8 @@
     position: relative;
     left: 55px;
 }
-body{
-            
-                font-family : 'Varela Round', sans-serif;
+body{   
+         font-family : 'Varela Round', sans-serif;
          }
          .style_it{
              background-color: #000;
@@ -36,9 +35,9 @@ body{
          }
          .d-flex div{
              text-align: center;
-             width: 290px;
-            
-            
-            
+             width: 290px;     
          }
+#log form{
+    padding:5px;
+}
         
