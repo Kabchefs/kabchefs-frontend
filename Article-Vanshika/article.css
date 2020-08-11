@@ -13,14 +13,18 @@ header>h2{
     font-size: medium;
 }
 
-#one{
+
+.one{
     margin-bottom: 40px;
     box-sizing: border-box;
     border-radius: 40px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 }
-
+.image{
+   width: 100%;
+    height: auto;
+}
 .panel-header{
     background-color: rgb(58, 122, 138);
     color: rgb(235, 215, 190);
@@ -28,7 +32,21 @@ header>h2{
     font-size: larger;
     padding: 8px;
 }
-
+.modal{
+    text-align: justify;
+    padding: 15px;
+}
+.modal-title
+{
+    padding: 0;
+    background-color: rgb(58, 122, 138);
+    color: rgb(250, 251, 252);
+    text-align: center;
+    font-size: 32px;
+}
+.boldd{
+    padding: 15px;
+}
 .panel-body
 {
     background-color: rgb(250, 251, 252);
@@ -46,4 +64,20 @@ time{
   
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.btn
+{
+    border:1px solid rgb(37, 37, 83);
+}
+.boldd{
+    
+    font-family: cursive;
+    font-size: 28px;
+}
+.c{
+    font-weight: bold;
+    font-size: 46px;
+}
+.para{
+    font-size: 16px;
 }
