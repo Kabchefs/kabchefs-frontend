@@ -1,18 +1,48 @@
-{
-	margin: 0;
-	padding: 0;
-	font-family: sans-serif;
-}
-/* .body-content
-{
-	width: 100%;
-	padding: 20px;
-	text-align: justify;
-	box-sizing: border-box;
-	font-size: 18px;
-	line-height: 40px;
-} */
+/* nav css */
 
+
+.navbar h4 {
+	color: #337AB7;
+	
+}
+.navbar{
+	background-color: #f8f8f8;
+}
+.nav-item .nav-link:hover {
+	background-color: rgb(212, 209, 205);
+    }
+      .nav-item .nav-link.active {
+		background-color: rgb(212, 209, 205);
+	
+    }
+
+
+/* about us */
+.intro_team{
+    margin : 70px auto;
+}
+.newsletter{
+    background-color: #004d80;
+    color: white;
+    margin : 70px 30px;
+}
+.newsletter .form-control{
+    height: 50px;
+    border-color: transparent;
+    border-radius: 20px 0 0 20px;
+}
+.newsletter .btn{
+    min-height: 50px;
+    border-radius: 0 20px 20px 0px;
+    background: #243c4f;
+    color: #fff;
+}
+
+.pt-3{
+    margin:70px auto;
+}
+
+/* footer */
 .footer{
 	width: 100%;
 	background: #001018;
@@ -20,11 +50,16 @@
 
 }
 
+.footer img{
+    height : 120px;
+    width : 120px;
+    margin-top: 30px;
+}
 .inner-footer
 {
-	width: 95%;
+	width: 100%;
 	margin: auto;
-	padding: 30px 10px;
+	padding: 10px;
 	display: flex;
 	flex-wrap: wrap; 
 	box-sizing: border-box;
@@ -38,7 +73,7 @@
 
 }
 
-h1{
+.footer-items h1{
 	padding: 10px 0;
 	font-size: 25px;
 	text-transform: uppercase;
@@ -50,7 +85,7 @@ h1{
 	text-align: justify;
 	line-height: 25px;
 }
-h2
+.footer-items h2
 {
 	margin: 10px 0;
 	color: grey;
@@ -66,7 +101,7 @@ h2
 	background: #ff9800;
 
 }
-ul
+div.footer ul
 {
 	list-style: none;
 	color: #fff;
@@ -74,7 +109,7 @@ ul
 	letter-spacing: 0.5px;
 
 }
-ul a
+div.footer ul a
 {
 	text-decoration: none;
 	outline: none;
@@ -82,45 +117,46 @@ ul a
 	transition: 0.3s;
 
 }
-ul a:hover
+div.footer ul a:hover
 {
 	color: #ff9800;
 
 }
 
-ul li
+div.footer ul li
 {
 	margin: 10px 0;
 	height: 25px;
 
 }
-li i
+div.footer li i
 {
 	margin-right: 20px;
 
 }
-.social-media
+ .social-media
 {
 	width: 100%;
     color: #fff;
     text-align: center;
 }
-.social-media a{
+ .social-media a{
 	text-decoration: none;
 }
-.social-media i
+ .social-media i
 {
-	height: 15px;
-	width: 15px;
+	height: 40px;
+	width: 40px;
 	margin: 20px 5px;
 	padding: 10px;
 	color: #fff;
 	border-radius: 50%;
 	border: 1px solid grey;
 	transition: 0.3s;
+	text-align: center;
 
 }
-.social-media i:hover
+ .social-media i:hover
 {
 	background: grey;
 }
@@ -131,6 +167,7 @@ li i
 	background: #3d545f;
 	color: #fff;
 	font-size: 12px;
+	text-align: center;
 }
 
 @media(max-width: 991px){

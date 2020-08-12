@@ -9,7 +9,13 @@
 	background-color: #f8f8f8;
 }
 
-
+.nav-item .nav-link:hover {
+	background-color: rgb(212, 209, 205);
+    }
+      .nav-item .nav-link.active {
+		background-color: rgb(212, 209, 205);
+	
+    }
 
 /* login css */
 
@@ -41,11 +47,7 @@
    
 } 
 
-/* .headi{
-    display: inline;
-    position: relative;
-    left: 55px;
-} */
+
 #bg_img{    
                 font-family : 'Varela Round', sans-serif;
          }
