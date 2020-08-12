@@ -9,31 +9,72 @@
 	background-color: #f8f8f8;
 }
 
+.nav-item .nav-link:hover {
+	background-color: rgb(212, 209, 205);
+    }
+      .nav-item .nav-link.active {
+		background-color: rgb(212, 209, 205);
+	
+    }
 
+/* contact us */
 
-/* about us */
-.intro_team{
-    margin : 70px auto;
+.contactUs {
+    font-family: 'Montserrat';
+  }
+  
+  .contactUs h1,.contactUs h2,.contactUs h3,.contactUs h4,.contactUs h5,.contactUs h6{
+    font-family: "Montserrat-bold";
+  }
+
+/* CONTACT HEADER */
+#contact-section {
+    margin : 100px 30px;
 }
-.newsletter{
-    background-color: #004d80;
-    color: white;
-    margin : 70px 30px;
-}
-.newsletter .form-control{
-    height: 50px;
-    border-color: transparent;
-    border-radius: 20px 0 0 20px;
-}
-.newsletter .btn{
-    min-height: 50px;
-    border-radius: 0 20px 20px 0px;
-    background: #243c4f;
+
+.contact-header{
+    padding:7% 15%;
+    text-align: center;
+     background-color: #252525;
     color: #fff;
 }
+.headline-text{
+    font-family: 'Montserrat-black', sans-serif;
+    font-weight: 900;   
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-bottom: 1rem;
+}
 
-.pt-3{
-    margin:70px auto;
+.contact-content{
+    padding:7% 15%;
+}
+
+/* CONTACT INFO SECTION */
+.contact-info-column ,.contact-info-column a{
+   background-color: #0a97b0;
+   color:#fff;
+}
+.contact-info{
+    padding: 2rem;  
+
+}
+
+
+/* CONTACT FORM */
+.contact-form{
+    padding-top: 2rem; 
+}
+
+
+.social-icon{
+    margin: 20px 10px;
+}
+.submit-button{
+      background:#0a97b0 ;
+}
+.submit-button:hover{
+    background:#12cad6;
 }
 
 /* footer */

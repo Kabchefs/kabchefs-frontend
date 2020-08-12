@@ -1,82 +1,129 @@
 /* nav css */
 
-
 .navbar h4 {
 	color: #337AB7;
 	
 }
 .navbar{
-	background-color: #f8f8f8;
+	background-color:#f8f8f8;
 }
 
+ .nav-item .nav-link:hover {
+	background-color: rgb(212, 209, 205);
+    }
+      .nav-item .nav-link.active {
+		background-color: rgb(212, 209, 205);
+	
+    }
 
-
-/* contact us */
-
-.contactUs {
-    font-family: 'Montserrat';
-  }
-  
-  .contactUs h1,.contactUs h2,.contactUs h3,.contactUs h4,.contactUs h5,.contactUs h6{
-    font-family: "Montserrat-bold";
-  }
-
-/* CONTACT HEADER */
-#contact-section {
-    margin : 100px 30px;
-}
-
-.contact-header{
-    padding:7% 15%;
+/* Article section */
+.film_review
+{
     text-align: center;
-     background-color: #252525;
-    color: #fff;
-}
-.headline-text{
-    font-family: 'Montserrat-black', sans-serif;
-    font-weight: 900;   
-    font-size: 3.5rem;
-    line-height: 1.5;
-    padding-bottom: 1rem;
 }
 
-.contact-content{
-    padding:7% 15%;
+.article-heading{
+    margin-top : 50px;
+    margin-bottom: -40px;
 }
 
-/* CONTACT INFO SECTION */
-.contact-info-column ,.contact-info-column a{
-   background-color: #0a97b0;
-   color:#fff;
+.article-heading hr{
+    width : 50%;
 }
-.contact-info{
-    padding: 2rem;  
-
+.modal-content{
+    position : relative;
 }
 
-
-/* CONTACT FORM */
-.contact-form{
-    padding-top: 2rem; 
+.modal-content img {
+    position : relative;
+    width : 90%;
 }
 
-
-.social-icon{
-    margin: 20px 10px;
-}
-.submit-button{
-      background:#0a97b0 ;
-}
-.submit-button:hover{
-    background:#12cad6;
+.panel{
+	
+	margin:auto;
+	padding:10px;
 }
 
-/* footer */
+.one{
+    width : 100%;
+    margin:100px  25%;
+    box-sizing: border-box;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.image{
+  /* position : relative;
+  width:90%; */
+    height: auto;
+}
+.panel-header{
+    background-color: rgb(58, 122, 138);
+    color: rgb(235, 215, 190);
+    font-style: italic;
+    font-size: larger;
+    padding: 8px;
+}
+.panel-body{
+    padding:8px;
+}
+.modal{
+    text-align: justify;
+    padding: 15px;
+}
+.modal-title
+{
+    padding: 0;
+    background-color: rgb(58, 122, 138);
+    color: rgb(250, 251, 252);
+    text-align: center;
+    font-size: 32px;
+}
+.boldd{
+    padding: 15px;
+}
+.panel-body
+{
+    background-color: rgb(250, 251, 252);
+    font-family: cursive;
+}
+footer
+{
+    text-align: right;
+    font: lighter;
+}
+time{
+    font: small lighter;
+}
+.user_review{
+  
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.btn
+{
+    border:1px solid rgb(37, 37, 83);
+}
+.boldd{
+    
+    font-family: cursive;
+    font-size: 28px;
+}
+.c{
+    font-weight: bold;
+    font-size: 46px;
+}
+.para{
+    font-size: 16px;
+}
+
+/* footer section */
 .footer{
 	width: 100%;
 	background: #001018;
 	display: block;
-
+    
 }
 
 .footer img{
@@ -207,6 +254,11 @@ div.footer li i
 		height:23rem;
 	}
 
+    .one{
+        width : 100%;
+        margin:100px auto;
+       
+    }
 }
 
 @media(max-width:550px){
@@ -215,5 +267,10 @@ div.footer li i
 		margin-bottom:1rem;
 		padding:0px 4px;
 		height:23rem;
-	}
+    }
+    .one{
+        width : 100%;
+        margin:100px auto;
+       
+    }
 }
