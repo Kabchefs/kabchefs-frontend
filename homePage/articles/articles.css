@@ -1,3 +1,5 @@
+/* nav css */
+
 .nav-link {
     color: #337AB7;
      font-size:21px ;
@@ -17,10 +19,7 @@
 	background-color: #f8f8f8;
 }
 
-
-
-
-
+/* Article section */
 
 .film_review
 {
@@ -89,7 +88,8 @@ time{
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.btn
+
+.modal-footer .btn
 {
     border:1px solid rgb(37, 37, 83);
 }
