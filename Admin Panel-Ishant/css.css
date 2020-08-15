@@ -1,55 +1,25 @@
-/* nav css */
-
-
-.navbar h4 {
-	color: #337AB7;
-	
-}
-.navbar{
-	background-color: #f8f8f8;
-}
-
-.nav-item .nav-link:hover {
-	background-color: rgb(212, 209, 205);
-    }
-      .nav-item .nav-link.active {
-		background-color: rgb(212, 209, 205);
-	
-    }
-
-/* login css */
-
-
-.wrapper td {
-    height:100%;
-	vertical-alignment: middle; /* center vertically */   
-	
-}
-
-.panel{
-	width: 500px;
-	margin:auto;
-	padding:10px;
-}
- 
-
 #bg_img{
-	margin-bottom :50px;
-    background-image: url(../images/b1.jpg);
+    background-image: url(b1.jpg);
     background-size: cover;
     width:100%;
     height:730px;
 }
-.panel-heading{
+.headi h3{
     text-align: center;
     color: #608acc;
     display: inline;
    
 } 
-
-
-#bg_img{    
-                font-family : 'Varela Round', sans-serif;
+.headi img{
+    display: inline;
+}
+.headi{
+    display: inline;
+    position: relative;
+    left: 55px;
+}
+body{   
+         font-family : 'Varela Round', sans-serif;
          }
          .style_it{
              background-color: #000;
@@ -65,20 +35,61 @@
          }
          .d-flex div{
              text-align: center;
-             width: 290px;
+             width: 290px;     
          }
-		 
-		 .panel {
-			background-color:rgba(255, 255, 255, 0.67);
-		}
-
-/* footer */
-
+#log form{
+    padding:5px;
+}
+ .car img{
+            width: 100%;  
+            height:100%;
+        }
+        #btn{
+            border: none;
+            background-color:#f8f8f8; 
+            font-size: 21px;
+            color: #337ab7;
+            margin-top: 6px;
+        }
+        #useri{
+            height:50px;
+        }
+        #useri img{
+            margin-top: 0px;
+            position: relative;
+            top:-63px;
+            left:180px;
+        }
+        .modal_h{
+           text-align: center;
+            color:#337ab7;
+        }
+    .modal-body .form-control {
+		min-height: 38px;
+		padding-left: 5px;
+		box-shadow: none !important;
+		border-width: 0 0 1px 0;
+		border-radius: 0;
+	}
+        .modal-body .input-group-addon {
+		max-width: 42px;
+		text-align: center;
+		background: none;
+		border-width: 0 0 1px 0;
+		padding-left: 5px;
+		border-radius: 0;
+            
+	}
+        .modal-body .fa {
+		font-size: 21px;
+            position: relative;
+            top:10px;
+	}
 .footer{
 	width: 100%;
 	background: #001018;
 	display: block;
-
+    
 }
 
 .footer img{
@@ -107,8 +118,7 @@
 .footer-items h1{
 	padding: 10px 0;
 	font-size: 25px;
-    text-transform: uppercase;
-    color : grey;
+	text-transform: uppercase;
 }
 
 .footer-items p{
@@ -220,3 +230,7 @@ div.footer li i
 		height:23rem;
 	}
 }
+
+
+   
+        

@@ -4,66 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Articles</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-   
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    
-     <!-- FONT AWESOME -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-     <!-- GOOGLE FONTS -->
-     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&family=Ubuntu&display=swap" rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/articles.css">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/articles.css">
+ <link rel="stylesheet" href="css/homePage.css">
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg  navbar-light border-bottom shadow-sm" >
-        <div class="container">
-            <a href="#" class="navbar-brand"><img src="images/logo.png" class="img-responsive" width="52px"> </a>
-            <a href="#" class="navbar-brand visible-sm"><strong>
-                    <h4 >KABCHEFS COMMUNITY</h4>
-                </strong></a>
+   <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light" style="background-color: #f8f8f8"> 
+            <div class="container"> 
+       <a href="index.html" class="navbar-brand"><img src="images/logo.png" class="img-responsive" width="52px"> </a>
+                <a href="index.html" class="navbar-brand visaible-sm" style="margin-top:-9px; padding-right:8px;padding-left: 0px;"><strong><h3 style="color: #337AB7; font-size: 27px;">KABCHEFS COMMUNITY</h3></strong></a>
+               <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar" style="background-color: #4a99dd;" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                   <span class="navbar-toggler-icon" style="color:white;"></span>
+            </button>     
+                 <div class="collapse navbar-collapse" id="myNavbar">
+                 <ul class="nav navbar-nav mr-auto">    
+                     <li class="nav-item active">
+        <a class="nav-link" style="color: #337AB7; font-size:21px " href="index.html"> <span class="fa fa-home"></span> Home </a>
+                     </li>
+                     <li class="nav-item active">
+        <a class="nav-link" style="color: #337AB7; font-size:21px " href="Project.html"><span class="fa fa-th"> </span> Projects </a>
+                     </li>
+                     <li class="nav-item active">
+        <a class="nav-link" style="color: #337AB7; font-size:21px " href="articles.html"><span class="fa fa-gift"></span> Articles </a>
+                     </li>     
+                    <li class="nav-item active">
+        <a class="nav-link" style="color: #337AB7; font-size:21px " href="about.html"><span class="fa fa-calendar"></span> About Us </a>
+                     </li>
+                   <li class="nav-item active">
+        <a class="nav-link" style="color: #337AB7; font-size:21px " href="contactpage.html"><span class="fa fa-user"></span> Contact Us </a>
+                     </li> 
+                                        <li class="nav-item active">
+     <button id="btn" type="button" data-toggle="modal" data-target="#myModal"><span class="fa fa-lock"></span> Login</button>
+                     </li>
+<div class="modal modal fade" id="myModal">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
+     
 
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item ">
-                        <a class="nav-link"  href="index.html"> <span
-                                class="fa fa-home"></span> Home </a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link"  href="Project.html"><span
-                                class="fa fa-th"> </span> Projects </a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link active" href="articles.html"><span
-                                class="fa fa-gift"></span> Articles </a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="about.html"><span
-                                class="fa fa-calendar"></span> About Us </a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="contact.html"><span
-                                class="fa fa-user"></span> Contact Us </a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link"  href="login.html"><span
-                                class="fa fa-lock"></span> Login </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    
+      <!-- Modal body -->
+      <div class="modal-body mbd">
+          <form method="post" action="abc.html">
+          <div class="form-group">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <div id="useri"><img src="images/userr.png" class="img-responsive img-rounded" width="90px" height="90px">     
+              </div> 
+              <h3 class="modal_h"><strong><em><u>KABCHEFS LOGIN</u></em></strong></h3><br>
+             	<div class="input-group">
+						<span class="input-group-addon"><i class="fa fa-user"></i></span>
+							<input type=email class="form-control" name="username" placeholder=" Username" required="required">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-lock"></i></span>
+							<input type=password class="form-control" name="password" placeholder=" Password" required="required">
+						</div>
+					</div>
+					<div class="form-group">
+						<button type="submit" class="btn btn-primary btn-block btn-lg">Sign In</button>
+					</div>
+					<p class="hint-text"><a href="#">Forgot Password?</a></p>
+              </form>
+</div>
+    </div>
+  </div>
+</div>
+                    </ul>
+                    </div>             
+            </div>            
+        </nav>   
+
     <!-- Article section -->
     <div class=" article-heading col-12 text-center">
       <h2>Article Section</h2>
@@ -97,7 +113,7 @@
   <!-- Modal -->
   <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
-      <div class="modal-content">
+      <div class="modal-content mdc">
         <div class="modal-header">
           <h5 class="modal-title" id="exampleModalLabel">Title for Article</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
