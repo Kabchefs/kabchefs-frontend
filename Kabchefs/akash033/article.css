@@ -1,0 +1,83 @@
+.film_review
+{
+    text-align: center;
+}
+header>h2{
+    color: rgb(30, 30, 83);
+    text-decoration: underline;
+}
+.main_review{
+    font-weight: bold;
+    color: rgb(22, 22, 92);
+    font-family: cursive;
+    font-size: medium;
+}
+
+
+.one{
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.image{
+   width: 100%;
+    height: auto;
+}
+.panel-header{
+    background-color: rgb(58, 122, 138);
+    color: rgb(235, 215, 190);
+    font-style: italic;
+    font-size: larger;
+    padding: 8px;
+}
+.modal{
+    text-align: justify;
+    padding: 15px;
+}
+.modal-title
+{
+    padding: 0;
+    background-color: rgb(58, 122, 138);
+    color: rgb(250, 251, 252);
+    text-align: center;
+    font-size: 32px;
+}
+.boldd{
+    padding: 15px;
+}
+.panel-body
+{
+    background-color: rgb(250, 251, 252);
+    font-family: cursive;
+}
+footer
+{
+    text-align: right;
+    font: lighter;
+}
+time{
+    font: small lighter;
+}
+.user_review{
+  
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.btn
+{
+    border:1px solid rgb(37, 37, 83);
+}
+.boldd{
+    
+    font-family: cursive;
+    font-size: 28px;
+}
+.c{
+    font-weight: bold;
+    font-size: 46px;
+}
+.para{
+    font-size: 16px;
+}
