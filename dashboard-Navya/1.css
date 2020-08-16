@@ -36,3 +36,6 @@ ul.timeline > li:before {
 {
     padding-left: 15px;
 }
+.modal .modal-dialog {
+  width: 80%;
+}

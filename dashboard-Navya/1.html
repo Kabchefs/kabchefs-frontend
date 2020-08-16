@@ -185,23 +185,23 @@
         <div class="d-flex flex-column text-center">
           <form>
                <div class="form-group">
-              <input type="name" class="form-control" id="name" placeholder="Enter Full Name">
+              <input type="name" class="form-control" id="name" placeholder="Enter Full Name" required>
             </div>
             <div class="form-group">
-              <input type="email" class="form-control" id="email"placeholder="Enter Email">
+              <input type="email" class="form-control" id="email" placeholder="Enter Email" required>
             </div>
             <div class="form-group">
-              <input type="contact" class="form-control" id="password" placeholder="Contact">
+              <input type="tel" class="form-control" id="contact" placeholder="Contact" pattern= "^\d{10}$" required>
             </div>
                <div class="form-group">
-              <input type="" class="form-control" id="address" placeholder="Address">
+              <input type="text" class="form-control" id="address" placeholder="Address" required>
             </div>
-               
-            
+                
+                   <button type="submit" class="btn btn-primary btn-round float-left">Submit</button>
           </form>
             
           </div>
-         <button type="button" class="btn btn-primary btn-round">Submit</button>
+        
       
     </div>
      
