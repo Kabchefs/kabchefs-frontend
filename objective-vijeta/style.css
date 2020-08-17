@@ -1,0 +1,29 @@
+#main-content{
+background-color:#0f4c75;
+margin-top:125px;
+margin-left:10px;
+
+}
+
+h1{
+    text-align: center;
+    color:whitesmoke;
+    font-size:65px ;
+    padding:20px;
+}
+
+p{
+    padding:20px 65px 52px 65px;
+    color:white;
+    font-size:20px;
+
+}
+
+body{
+    background-image:url(../images/banner4.jpg) ;
+    height:500;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
