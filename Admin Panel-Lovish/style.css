@@ -1,0 +1,67 @@
+    .banner-image{
+        width: 100%;
+        padding-bottom: 10px;
+        padding-left: 15%;
+        padding-right: 15%;
+        margin-bottom: 20px;
+        background: url(bg-01.jpg) no-repeat center;
+        text-align: center;
+        color: #f8f8f8;
+        background-size: cover
+        }
+        .inner-banner-image {
+            padding-top: 15%;
+            padding-bottom: 3%;
+            width:80%;
+            margin:auto; 
+            margin-left: 15%;
+            margin-right: 10%;
+            }
+        .banner_content{
+            position: relative;
+            padding-top: 6%;
+            padding-bottom: 6%;
+            padding-left: 4%;
+            padding-right: 6%;
+            border-color: rgba(255, 255, 255, 0.623);
+            border-style: solid;
+            box-shadow: antiquewhite;
+            overflow:hidden;
+            margin-bottom: 8%;
+            background-color: rgba(0, 0, 0, 0.685);
+            max-width: 660px;
+            }
+
+            .navbar{
+                border: none;
+                position: fixed;
+                background: transparent !important;
+                top: 0;
+                z-index: 99999;
+                padding:10px 0;
+                margin-bottom: 0px;
+                }
+                .navbar p.navbar-brand{
+                    color: white;
+                    font-weight: bolder;
+                    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                }
+                .navbar p.navbar-brand{
+                    font-size: xx-large;
+                }
+                .navbar ul.nav li.nav-item a{
+                font-size: 1em;
+                background-color: rgba(39, 38, 38, 0.075);
+                padding: 10px;
+                color:rgb(255, 251, 251);
+                font-weight: 500;
+                font-family: sans-serif;
+                }
+                .navbar ul.nav li.nav-item a:active{
+                    color: white;
+                    text-decoration: underline ;
+                }
+                .navbar ul.nav li.nav-item a:hover{
+                    color: white;
+                    text-decoration: underline ;
+                }
