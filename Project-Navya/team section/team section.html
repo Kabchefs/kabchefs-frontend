@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Owl-carousel Cards Slider | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <style>
+      .size
+          {
+              font-size: 50px;
+          }
+         .social-link {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #fff;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+       .fa
+          {
+              padding:10px;
+              font-size: 20px;
+              width: 15px;
+              text-align:inherit;
+              text-decoration:none;
+              border-radius: 100%;
+              height: 40px;
+          }
+          
+            .fa:hover
+          {
+              opacity: 0.7;
+          }
+          .fa-facebook
+          {
+              background: #3B5998;
+              color: white;
+          }
+          .fa-instagram
+          {
+              background: #E1306C;
+              color: white;
+          }
+          .fa-twitter
+          {
+              background: #55ACEE;
+              color: white;
+          }
+          .fa-linkedin
+          {
+              background: #007bb5;
+              color: white;
+          }
+        
+      </style>
+      
+  </head>
+  <body>
+      
+     <center><div class="size">Meet the Team</div></center>  
+       
+    <div class="slider owl-carousel">
+        
+      <div class="card">
+        <div class="img"><img src="profile-1.jpeg" alt=""></div>
+        <div class="content">
+          <div class="title">Name 1</div>
+            <div class="sub-title">Designation</div>
+          <p>  We build for the nation.  We are developing software, website, web apps, android apps, and ios apps.</p>
+          <div class="btn">
+              <button>Read more...</button><br><br></div>
+               
+                   <a href="#" class="social-link fa fa-facebook"></a>  
+                    <a href="#" class="social-link fa fa-instagram"></a>
+                    <a href="#" class="social-link fa fa-twitter"></a> 
+                    <a href="#" class="social-link fa fa-linkedin"></a> 
+            
+         
+      </div><br>
+        </div>
+            
+      <div class="card ">
+        <div class="img"><img src="profile-2.jpeg" alt=""></div>
+        <div class="content">
+           <div class="title">Name 2</div>
+          <div class="sub-title">Designation</div>
+          <p>  We build for the nation. We are developing software, website, web apps, android apps, and ios apps.</p>
+          <div class="btn">
+            <button>Read more...</button><br><br>
+            </div>
+              
+                    <a href="#" class="social-link fa fa-facebook"></a> 
+                    <a href="#" class="social-link fa fa-instagram"></a>
+                    <a href="#" class="social-link fa fa-twitter"></a> 
+                    <a href="#" class="social-link fa fa-linkedin"></a> 
+               
+           
+        </div><br>
+                </div> 
+            
+      <div class="card ">
+        <div class="img"><img src="profile-3.jpeg" alt=""></div>
+        <div class="content">
+           <div class="title">Name 3</div>
+          <div class="sub-title">Designation</div>
+          <p>  We build for the nation. We are developing software, website, web apps, android apps, and ios apps.</p>
+          <div class="btn">
+            <button>Read more...</button><br><br>
+          </div>
+            
+                    <a href="#" class="social-link fa fa-facebook"></a> 
+                    <a href="#" class="social-link fa fa-instagram"></a>
+                    <a href="#" class="social-link fa fa-twitter"></a> 
+                    <a href="#" class="social-link fa fa-linkedin"></a> 
+            
+        </div><br>
+      </div>
+        </div> 
+      
+         
+    <script>
+      $(".slider").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 2000, //2000ms = 2s;
+        autoplayHoverPause: true,
+      });
+    </script>
+          
+  </body>
+</html>
