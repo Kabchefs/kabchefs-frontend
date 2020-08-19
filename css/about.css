@@ -1,51 +1,20 @@
 /* nav css */
 
 
-  .car img{
-            width: 100%;  
-            height:100%;
-        }
-        #btn{
-            border: none;
-            background-color:#f8f8f8; 
-            font-size: 21px;
-            color: #337ab7;
-            margin-top: 6px;
-        }
-        #useri{
-            height:50px;
-        }
-        #useri img{
-            margin-top: 0px;
-            position: relative;
-            top:-63px;
-            left:180px;
-        }
-        .modal_h{
-           text-align: center;
-            color:#337ab7;
-        }
-    .modal-body .form-control {
-		min-height: 38px;
-		padding-left: 5px;
-		box-shadow: none !important;
-		border-width: 0 0 1px 0;
-		border-radius: 0;
-	}
-        .modal-body .input-group-addon {
-		max-width: 42px;
-		text-align: center;
-		background: none;
-		border-width: 0 0 1px 0;
-		padding-left: 5px;
-		border-radius: 0;
-            
-	}
-        .modal-body .fa {
-		font-size: 21px;
-            position: relative;
-            top:10px;
-	}
+.navbar h4 {
+	color: #337AB7;
+	
+}
+.navbar{
+	background-color: #f8f8f8;
+}
+.nav-item .nav-link:hover {
+	background-color: rgb(212, 209, 205);
+    }
+      .nav-item .nav-link.active {
+		background-color: rgb(212, 209, 205);
+	
+    }
 
 /* about us */
 .intro_team{
@@ -54,7 +23,7 @@
 .newsletter{
     background-color: #004d80;
     color: white;
-    margin : 70px 30px;
+    margin : 50px 100px;
 }
 .newsletter .form-control{
     height: 50px;
@@ -62,30 +31,87 @@
     border-radius: 20px 0 0 20px;
 }
 .newsletter .btn{
-    min-height: 50px;
+    height: 50px;
     border-radius: 0 20px 20px 0px;
     background: #243c4f;
     color: #fff;
 }
+@media only screen and (max-width: 600px) {
+	#res {
+		max-width: 150px;
+		 float: left;
+		 margin-left: 30px;
+		 padding-bottom: 5px;
+	}
+	#font
+	{
+		font-size: 14px;
+		text-align: justify;
+		margin: 50px;
+		margin-bottom: 0;
+	}
+.newsletter .form-control{
+max-height: 30px;
+font-size: 12px;
+}
+.newsletter{
+margin: 30px 30px;
+height: 140px;
+}
+.newsletter .btn{
+max-height: 30px;
+}
 
 .pt-3{
-    margin:70px auto;
+    margin:30px auto;
 }
+}
+@media only screen and (max-width: 1024px) {
+	#res {
+		width: 170px;
+		 float: left;
+		 margin-left: 10px;
+		 padding-bottom: 7px;
+	}
+	#font
+	{
+		font-size: 14px;
+		text-align: justify;
+		margin: 10px;
+		margin-bottom: 0;
+	}
+	
+.newsletter .form-control{
+max-height: 35px;
+font-size: 14px;
+}
+.newsletter{
+margin: 30px 30px;
+height: 150px;
+}
+.newsletter .btn{
+max-height: 35px;
+}
+
+.pt-3{
+    margin:20px auto;
+}
+}
+
 
 /* footer */
 .footer{
 	width: 100%;
 	background: #001018;
 	display: block;
-    
+
 }
+
 .footer img{
-height : 120px;
-margin-top: 30px;
-width: 120px;
+    height : 120px;
+    width : 120px;
+    margin-top: 30px;
 }
-
-
 .inner-footer
 {
 	width: 100%;
@@ -209,31 +235,13 @@ div.footer li i
 		height:23rem;
 	}
 
-	.one{
-        width : 90%;
-        margin:100px auto;
-       
-    }
-
 }
 
 @media(max-width:550px){
 	.footer-items{
 		width:100%;
-		margin-bottom:0px;
+		margin-bottom:1rem;
 		padding:0px 4px;
-		height:18rem;
+		height:23rem;
 	}
-
-	.one{
-        width : 90%;
-        margin:100px auto;
-       
-    }
 }
-.new-class{
-width:308px;
-height:190px;
-}
-
-
