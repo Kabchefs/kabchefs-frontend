@@ -365,18 +365,20 @@ time{
 /**** footer css *****/
 
 
+
 .footer{
 	width: 100%;
 	background: #001018;
 	display: block;
     
 }
-
 .footer img{
-    height : 120px;
-    width : 120px;
-    margin-top: 30px;
+height : 120px;
+margin-top: 30px;
+width: 120px;
 }
+
+
 .inner-footer
 {
 	width: 100%;
@@ -511,9 +513,9 @@ div.footer li i
 @media(max-width:550px){
 	.footer-items{
 		width:100%;
-		margin-bottom:1rem;
+		margin-bottom:0px;
 		padding:0px 4px;
-		height:23rem;
+		height:18rem;
 	}
 
 	.one{
@@ -521,5 +523,9 @@ div.footer li i
         margin:100px auto;
        
     }
+}
+.new-class{
+width:308px;
+height:190px;
 }
 
