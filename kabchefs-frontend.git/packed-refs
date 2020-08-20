@@ -1,0 +1,5 @@
+# pack-refs with: peeled fully-peeled sorted 
+7fe81a6091f41f24eaedcc480639530e0ea6ea9b refs/heads/final-project
+09dd1b8556a7e41d4c6902ca7710a738135f22d4 refs/heads/home-page
+f8285b68fcb87b68d3b76f55ec6efe28690d65aa refs/heads/master
+89b52b3165db04468ec36168f4868680b2751489 refs/heads/revert-28-master
