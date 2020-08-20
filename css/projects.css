@@ -1,50 +1,69 @@
+/* nav css */
 
-
-/*** objective css ****/
-.objective #main-content{
-    background-color:#0f4c75;
-	margin : 125px auto;
-	box-shadow: 5px 5px 7px #888888;
+.car img{
+    width: 100%;  
+    height:100%;
+}
+#btn{
+    border: none;
+    background-color:#f8f8f8; 
+    font-size: 21px;
+    color: #337ab7;
+    margin-top: 6px;
+}
+#useri{
+    height:50px;
+}
+#useri img{
+    margin-top: 0px;
+    position: relative;
+    top:-63px;
+    left:180px;
+}
+.modal_h{
+   text-align: center;
+    color:#337ab7;
+}
+.mbd .form-control {
+min-height: 38px;
+padding-left: 5px;
+box-shadow: none !important;
+border-width: 0 0 1px 0;
+border-radius: 0;
+}
+.mbd .input-group-addon {
+max-width: 42px;
+text-align: center;
+background: none;
+border-width: 0 0 1px 0;
+padding-left: 5px;
+border-radius: 0;
     
-    }
-    
-    .objective h1{
-        text-align: center;
-        color:whitesmoke;
-        font-size:65px ;
-        padding:20px;
-    }
-    
-    .objective p{
-        padding:20px 65px 52px 65px;
-        color:white;
-        font-size:20px;
-    
-    }
-    
-    /* .container .objective{
-        background-image:url(images/banner4.jpg) ;
-        height:500;
-        background-size:cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    
-    } */
-
-
-
-/*****projects css ****/
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
-.projects.py-5 {
-  font-family: "Montserrat", sans-serif;
-	color: #8d97ad;
-  font-weight: 300;
-  margin : 100px 50px;
-  box-shadow: 5px 5px 10px  #8d97ad;
- 
+}
+.mbd .fa {
+font-size: 21px;
+    position: relative;
+    top:10px;
 }
 
+/* Projects section */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+.projects.py-5 {
+    font-family: "Montserrat", sans-serif;
+      color: #8d97ad;
+    font-weight: 300;
+    margin : 50px 50px 150px 50px;
+  
+    box-shadow: 10px 10px 10px  #8d97ad;
+   
+  }
+  .projects .heading {
+      margin-bottom : 50px;
+  }
+   .bottom {
+    padding: 0 20px;
+    margin-bottom: 17px;
+  }
  .bottom {
   padding: 0 20px;
   margin-bottom: 17px;
@@ -132,7 +151,6 @@
 }
 
 
-
 p.bottom .fa {
   margin : 5px 10px;
  padding: 10px;
@@ -178,177 +196,9 @@ p.bottom .fa {
   line-height: 1.5;
   border-radius: 3px;
  
-} 
-
-/****nav css ***/
-
-  .car img{
-            width: 100%;  
-            height:100%;
-        }
-        #btn{
-            border: none;
-            background-color:#f8f8f8; 
-            font-size: 21px;
-            color: #337ab7;
-            margin-top: 6px;
-        }
-        #useri{
-            height:50px;
-        }
-        #useri img{
-            margin-top: 0px;
-            position: relative;
-            top:-63px;
-            left:180px;
-        }
-        .modal_h{
-           text-align: center;
-            color:#337ab7;
-        }
-    .modal-body .form-control {
-		min-height: 38px;
-		padding-left: 5px;
-		box-shadow: none !important;
-		border-width: 0 0 1px 0;
-		border-radius: 0;
-	}
-        .modal-body .input-group-addon {
-		max-width: 42px;
-		text-align: center;
-		background: none;
-		border-width: 0 0 1px 0;
-		padding-left: 5px;
-		border-radius: 0;
-            
-	}
-        .modal-body .fa {
-		font-size: 21px;
-            position: relative;
-            top:10px;
-	}
-   
-/* article css */
-
-.article-section {
-	padding-top : 20px;
-	padding-bottom : 20px;
-	margin : 100px 50px;
-	box-shadow: 5px 5px 10px  #8d97ad;
 }
 
-.article-section .info {
-    margin-top: -30px;
-}
-
-.film_review
-{
-    text-align: center;
-}
-
-.article-heading{
-    margin-top : 50px;
-    margin-bottom: -40px;
-}
-
-.article-heading hr{
-    width : 50%;
-}
-.modal-content{
-    position : relative;
-}
-
-.modal-content img {
-    position : relative;
-    width : 90%;
-}
-
-.panel{
-	
-	margin:auto;
-	padding:10px;
-}
-
-.one{
-    width : 100%;
-    margin:100px  auto;
-    box-sizing: border-box;
-    border-radius: 40px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
-}
-.image{
-  /* position : relative;
-  width:90%; */
-    height: auto;
-}
-.panel-header{
-    background-color: rgb(58, 122, 138);
-    color: rgb(235, 215, 190);
-    font-style: italic;
-    font-size: larger;
-    padding: 8px;
-}
-.panel-body{
-    padding:8px;
-}
-.modal{
-    text-align: justify;
-    padding: 15px;
-}
-.modal-title
-{
-    padding: 0;
-    background-color: rgb(58, 122, 138);
-    color: rgb(250, 251, 252);
-    text-align: center;
-    font-size: 32px;
-}
-.boldd{
-    padding: 15px;
-}
-.panel-body
-{
-    background-color: rgb(250, 251, 252);
-    font-family: cursive;
-}
-footer
-{
-    text-align: right;
-    font: lighter;
-}
-time{
-    font: small lighter;
-}
-.user_review{
-  
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.article-section .btn
-{   font-family: cursive;
-    border:1px solid rgb(37, 37, 83);
-}
-.boldd{
-    
-    font-family: cursive;
-    font-size: 28px;
-}
-.c{
-    font-weight: bold;
-    font-size: 46px;
-}
-.para{
-    font-size: 16px;
-}
-
-
-
-
-/**** footer css *****/
-
-
-
+/* Footer css */
 .footer{
 	width: 100%;
 	background: #001018;
@@ -485,11 +335,6 @@ div.footer li i
 		height:23rem;
 	}
 
-	.one{
-        width : 90%;
-        margin:100px auto;
-       
-    }
 
 }
 
@@ -501,14 +346,8 @@ div.footer li i
 		height:18rem;
 	}
 
-	.one{
-        width : 90%;
-        margin:100px auto;
-       
-    }
 }
 .new-class{
 width:308px;
 height:190px;
 }
-
