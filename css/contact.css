@@ -1,6 +1,24 @@
 /* nav css */
 
 
+<<<<<<< HEAD
+.navbar h4 {
+	color: #337AB7;
+	
+}
+.navbar{
+	background-color: #f8f8f8;
+}
+
+.nav-item .nav-link:hover {
+	background-color: rgb(212, 209, 205);
+    }
+      .nav-item .nav-link.active {
+		background-color: rgb(212, 209, 205);
+	
+    }
+
+=======
  `  .car img{
             width: 100%;  
             height:100%;
@@ -51,6 +69,7 @@
             position: relative;
             top:10px;
 	}
+>>>>>>> upstream/final-project
 /* contact us */
 
 .contactUs {
@@ -83,7 +102,61 @@
 .contact-content{
     padding:7% 15%;
 }
+@media only screen and (max-width: 600px) {
+.contact-info>h1,
+.headline-text {
+		font-size: 1.7rem;
+		margin: 5px;
+		padding: 5px;
+	}
+	.contact-info>p{
+		font-size: 14px;
+	}
+	.common-IntroText{
+		font-size: 1.2rem;
+		text-align: justify;
+	}
+.contact-header, .submit-button{
+margin: 50px;
+}
+.form-control{
+font-size: 14px;
+}
+.submit-button{
+padding: 0 8px;
+font-size: 14px;
+margin-left: 0px;
+margin-top: 10px;
+}
+}
 
+@media only screen and (max-width: 1024px) {
+	.contact-info>h1,
+	.headline-text {
+			font-size: 1.9rem;
+			margin: 6px;
+			padding: 6px;
+		}
+		.contact-info>p{
+			font-size: 14px;
+		}
+		.common-IntroText{
+			font-size: 1.3rem;
+			text-align: justify;
+		}
+	.contact-header, .submit-button{
+	margin: 50px;
+	}
+	.form-control{
+	font-size: 14px;
+	}
+	.submit-button{
+	padding: 0 8px;
+	font-size: 14px;
+	margin-left: 0px;
+	margin-top: 10px;
+	}
+	}
 /* CONTACT INFO SECTION */
 .contact-info-column ,.contact-info-column a{
    background-color: #0a97b0;
@@ -116,15 +189,14 @@
 	width: 100%;
 	background: #001018;
 	display: block;
-    
+
 }
+
 .footer img{
-height : 120px;
-margin-top: 30px;
-width: 120px;
+    height : 120px;
+    width : 120px;
+    margin-top: 30px;
 }
-
-
 .inner-footer
 {
 	width: 100%;
@@ -248,29 +320,13 @@ div.footer li i
 		height:23rem;
 	}
 
-	.one{
-        width : 90%;
-        margin:100px auto;
-       
-    }
-
 }
 
 @media(max-width:550px){
 	.footer-items{
 		width:100%;
-		margin-bottom:0px;
+		margin-bottom:1rem;
 		padding:0px 4px;
-		height:18rem;
+		height:23rem;
 	}
-
-	.one{
-        width : 90%;
-        margin:100px auto;
-       
-    }
-}
-.new-class{
-width:308px;
-height:190px;
 }
