@@ -290,7 +290,13 @@ div.footer li i
         width : 90%;
         margin:100px auto;
        
-    }
+	}
+	
+	.team-img{
+		height:65%;
+		max-width: 70%;
+		padding-bottom: 1.5rem!important;
+	}
 }
 .new-class{
 width:308px;
