@@ -185,6 +185,12 @@ p.bottom .fa {
             width: 100%;  
             height:100%;
         }
+.siz h2{
+    font-size: 17px;
+}
+.siz h4{
+    font-size: 14px;
+}
 #brand a{
    color: #337ab7;
     font-size: 27px; 
