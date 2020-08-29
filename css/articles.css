@@ -154,7 +154,10 @@ time{
     font-size: 16px;
 }
 
-/* footer section */
+
+/**** footer css *****/
+
+
 
 .footer{
 	width: 100%;
@@ -241,7 +244,6 @@ div.footer ul li
 {
 	margin: 10px 0;
 	height: 25px;
-
 }
 div.footer li i
 {
@@ -294,9 +296,9 @@ div.footer li i
 
 	.one{
         width : 90%;
-        margin:100px auto;
-       
-    }
+        margin:100px auto;  
+	
+	}
 
 }
 
